@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h1>Weather App</h1>
+
+  <select id="city-select" aria-label="Select City">
+    <option value="Kathmandu">Kathmandu</option>
+    <option value="New York">New York</option>
+    <option value="London">London</option>
+    <option value="Tokyo">Tokyo</option>
+  </select>
+
+  <div id="weather-info" role="region" aria-live="polite"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
